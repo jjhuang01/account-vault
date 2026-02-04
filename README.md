@@ -1,5 +1,7 @@
 # Account Vault
 
+**🇬🇧 English** | [🇨🇳 中文](README.zh-CN.md)
+
 A modern, dual-themed account management interface with TOTP 2FA support and glassmorphism design.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
