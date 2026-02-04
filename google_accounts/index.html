@@ -959,7 +959,9 @@
         border-radius: 100px;
         font-weight: 600;
         transform: translateY(150%);
-        transition: transform var(--transition-bounce);
+        opacity: 0;
+        pointer-events: none;
+        transition: all var(--transition-bounce);
         z-index: 1000;
         box-shadow: var(--shadow-lg), var(--shadow-glow);
         display: flex;
@@ -969,6 +971,8 @@
 
       #toast.visible {
         transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
       }
 
       /* Empty State */
